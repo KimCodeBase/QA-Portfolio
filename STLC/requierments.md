@@ -30,5 +30,5 @@ Free shipping for orders above a certain amount. Orders below this amount will i
 -Is the free shipping threshold inclusive or exclusive of taxes and other fees?<br>
 -Should the shipping cost information be displayed during the checkout process?<br>
 -Are there any exceptions to the shipping cost changes (e.g., specific regions, product types)?<br>
-<p><b>>Detailed Requirement:</b></p>
+<p><b>Detailed Requirement:</b></p>
 Orders of €20 and above will qualify for free shipping. Orders below €20 will incur a shipping fee of €5. The free shipping threshold is inclusive of taxes but exclusive of other fees. Shipping cost information should be clearly displayed during the checkout process. There are no exceptions; the policy applies to all regions and product types.
