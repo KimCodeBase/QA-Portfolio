@@ -22,7 +22,7 @@ Check-out process: billing and sending information in a form, choose payment met
 -Should the age verification modal appear every time the user visits the alcoholic products category or just once?<br>
 <p><b>Detailed Requirement:</b></p> 
 A modal will appear asking the user to confirm if they are 18+ by inputting their birth date in the format DD/MM/YYYY. If the user inputs an age below 18, they will be denied access to the alcoholic products category and redirected to the homepage. The age verification modal will appear only once per session.
-3. Shipping Cost Changes<br>
+<p><b>3. Shipping Cost Changes</b></p>
 Vague Requirement: Free shipping for orders above a certain amount. Orders below this amount will incur a shipping fee.
 Questions:
 -What is the new shipping fee for orders below the specified amount?<br>
