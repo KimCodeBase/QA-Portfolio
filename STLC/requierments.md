@@ -5,8 +5,8 @@ Webshop, with the following basic functionalities:<br>
 - Add products to favorites<br>
 - Add products to basket<br>
 Check-out process: billing and sending information in a form, choose payment method. Calculation of costs (calculate total price)<br>
-<h2>New features</h2>
-1. Product Rating System
+<h2><b>New features</b></h2>
+<p><b>1. Product Rating System</b></p>
 <p>Vague Requirement: </p>Users should be able to rate products with a 5-star system and have the option to add written feedback.<br>
 <p><b>Questions:</b></p>
 - Should users be able to edit or delete their ratings and feedback?<br>
@@ -17,16 +17,16 @@ Check-out process: billing and sending information in a form, choose payment met
 <p><b>2. Age Verification for Alcoholic Products</b></p>
 <p><b>Vague Requirement:</b></p> Alcoholic products require age verification. A modal should appear when navigating to the alcoholic products category asking if the user is 18+. Users must input their age before accessing the alcoholic products.
 <p><b>Questions:</b></p>
--How should the age be verified (e.g., simple input, date picker, integration with an ID verification system)?
--What should happen if the user inputs an age below 18?
--Should the age verification modal appear every time the user visits the alcoholic products category or just once?
+-How should the age be verified (e.g., simple input, date picker, integration with an ID verification system)?<br>
+-What should happen if the user inputs an age below 18?<br>
+-Should the age verification modal appear every time the user visits the alcoholic products category or just once?<br>
 <p><b>Detailed Requirement:</b></p> A modal will appear asking the user to confirm if they are 18+ by inputting their birth date in the format DD/MM/YYYY. If the user inputs an age below 18, they will be denied access to the alcoholic products category and redirected to the homepage. The age verification modal will appear only once per session.
 3. Shipping Cost Changes
 Vague Requirement: Free shipping for orders above a certain amount. Orders below this amount will incur a shipping fee.
 Questions:
--What is the new shipping fee for orders below the specified amount?
--Is the free shipping threshold inclusive or exclusive of taxes and other fees?
--Should the shipping cost information be displayed during the checkout process?
--Are there any exceptions to the shipping cost changes (e.g., specific regions, product types)?
+-What is the new shipping fee for orders below the specified amount?<br>
+-Is the free shipping threshold inclusive or exclusive of taxes and other fees?<br>
+-Should the shipping cost information be displayed during the checkout process?<br>
+-Are there any exceptions to the shipping cost changes (e.g., specific regions, product types)?<br>
 <p><b>>Detailed Requirement:</b></p
 Orders of €20 and above will qualify for free shipping. Orders below €20 will incur a shipping fee of €5. The free shipping threshold is inclusive of taxes but exclusive of other fees. Shipping cost information should be clearly displayed during the checkout process. There are no exceptions; the policy applies to all regions and product types.
