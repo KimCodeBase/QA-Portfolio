@@ -23,8 +23,9 @@ Check-out process: billing and sending information in a form, choose payment met
 <p><b>Detailed Requirement:</b></p> 
 A modal will appear asking the user to confirm if they are 18+ by inputting their birth date in the format DD/MM/YYYY. If the user inputs an age below 18, they will be denied access to the alcoholic products category and redirected to the homepage. The age verification modal will appear only once per session.
 <p><b>3. Shipping Cost Changes</b></p>
-Vague Requirement: Free shipping for orders above a certain amount. Orders below this amount will incur a shipping fee.
-Questions:
+Vague Requirement:<br>
+Free shipping for orders above a certain amount. Orders below this amount will incur a shipping fee.
+<p><b>Questions:</b></p>
 -What is the new shipping fee for orders below the specified amount?<br>
 -Is the free shipping threshold inclusive or exclusive of taxes and other fees?<br>
 -Should the shipping cost information be displayed during the checkout process?<br>
