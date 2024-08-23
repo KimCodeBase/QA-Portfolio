@@ -1,9 +1,9 @@
 <h2>The software</h2>
 Webshop, with the following basic functionalities:
-Register and login functionality
-Searching for products, sorting on price, categories of products
-Add products to favorites
-Add products to basket
+- Register and login functionality
+- Searching for products, sorting on price, categories of products
+- Add products to favorites
+- Add products to basket
 Check-out process: billing and sending information in a form, choose payment method. Calculation of costs (calculate total price)
 <h2>New features</h2>
 1. Product Rating System
