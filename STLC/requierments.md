@@ -1,10 +1,10 @@
 <h2>The software</h2>
-Webshop, with the following basic functionalities:
-- Register and login functionality
-- Searching for products, sorting on price, categories of products
-- Add products to favorites
-- Add products to basket
-Check-out process: billing and sending information in a form, choose payment method. Calculation of costs (calculate total price)
+Webshop, with the following basic functionalities:<br>
+- Register and login functionality<br>
+- Searching for products, sorting on price, categories of products<br>
+- Add products to favorites<br>
+- Add products to basket<br>
+Check-out process: billing and sending information in a form, choose payment method. Calculation of costs (calculate total price)<br>
 <h2>New features</h2>
 1. Product Rating System
 Vague Requirement: Users should be able to rate products with a 5-star system and have the option to add written feedback.
