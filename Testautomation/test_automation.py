@@ -1,14 +1,19 @@
+import os
+from dotenv import load_dotenv
 from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 
-from selenium.webdriver.chrome.service import Service
-service = Service('/Users/kimberlycanas/qa-portfolio/QA-Portfolio/chromedriver')
+# Load environment variables
+load_dotenv()
 
-# Initialize the WebDriver
+# Use the ChromeDriver path from .env
+service = Service(os.getenv("CHROME_DRIVER_PATH"))
 driver = webdriver.Chrome(service=service)
+
 print("Opened Masterschool website")
 
 # Open the Masterschool website
