@@ -1,0 +1,6 @@
+# Created by pytest automatically.
+# Ignore ChromeDriver binary
+chromedriver
+
+# Ignore environment file
+.env
