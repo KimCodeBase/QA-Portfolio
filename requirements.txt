@@ -1,0 +1,4 @@
+selenium==4.24.0
+pytest==8.2.2
+python-dotenv==1.0.1
+chromedriver-py==129.0.6668.100
