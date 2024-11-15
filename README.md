@@ -6,8 +6,27 @@
 
 <hr>
 
-<h2>📂 Repository Structure</h2>
+<h2>📑 Table of Contents</h2>
 
+<ul>
+    <li><a href="#repository-structure">📂 Repository Structure</a></li>
+    <li><a href="#getting-started">🚀 Getting Started</a>
+        <ul>
+            <li><a href="#prerequisites">Prerequisites</a></li>
+            <li><a href="#installation-steps">Installation Steps</a></li>
+            <li><a href="#running-the-tests">Running the Tests</a></li>
+        </ul>
+    </li>
+    <li><a href="#contents">📋 Contents</a></li>
+    <li><a href="#key-skills-demonstrated">🛠️ Key Skills Demonstrated</a></li>
+    <li><a href="#sample-test-reports">📈 Sample Test Reports</a></li>
+    <li><a href="#future-improvements">🧩 Future Improvements</a></li>
+    <li><a href="#lets-connect-on-linkedin">Let’s Connect on LinkedIn</a></li>
+</ul>
+
+<hr>
+
+<h2 id="repository-structure">📂 Repository Structure</h2>
 <ul>
     <li><strong>STLC</strong>: Documentation covering each phase of the Software Testing Life Cycle, including requirements, test planning, test case design, test execution, and reporting.</li>
     <li><strong>TestAutomation</strong>: All Selenium and PyTest scripts for automated testing tasks. This folder includes test cases, locators, and page objects, following best practices like the Page Object Model (POM) pattern.</li>
@@ -17,18 +36,16 @@
 
 <hr>
 
-<h2>🚀 Getting Started</h2>
+<h2 id="getting-started">🚀 Getting Started</h2>
 
-<h3>Prerequisites</h3>
-
+<h3 id="prerequisites">Prerequisites</h3>
 <p>To get started, ensure you have:</p>
 <ul>
     <li><strong>Python 3.8+</strong> installed on your machine</li>
     <li><strong>Google Chrome</strong> browser installed (for running Selenium tests with ChromeDriver)</li>
 </ul>
 
-<h3>Installation Steps</h3>
-
+<h3 id="installation-steps">Installation Steps</h3>
 <ol>
     <li>
         <strong>Install ChromeDriver:</strong>
@@ -51,18 +68,14 @@ pip install pytest</code></pre>
     </li>
 </ol>
 
-<h3>Running the Tests</h3>
-
+<h3 id="running-the-tests">Running the Tests</h3>
 <p>To execute all tests in this repository using PyTest, run the following command in the terminal from the root directory of the repository:</p>
-
 <pre><code>pytest</code></pre>
-
 <p>This will run all test scripts, and you can view the test results in the terminal. PyTest will generate a summary of passed and failed tests along with any error messages.</p>
 
 <hr>
 
-<h2>📋 Contents</h2>
-
+<h2 id="contents">📋 Contents</h2>
 <ul>
     <li><strong>Test Automation</strong>: Scripts written in Python using Selenium and PyTest. Each script follows the STLC, demonstrating my approach to real-world QA scenarios.</li>
     <ul>
@@ -75,8 +88,7 @@ pip install pytest</code></pre>
 
 <hr>
 
-<h2>🛠️ Key Skills Demonstrated</h2>
-
+<h2 id="key-skills-demonstrated">🛠️ Key Skills Demonstrated</h2>
 <ul>
     <li><strong>Selenium Automation</strong>: Interactive tests for web applications.</li>
     <li><strong>PyTest Framework</strong>: Efficient test case management and reporting.</li>
@@ -87,8 +99,7 @@ pip install pytest</code></pre>
 
 <hr>
 
-<h2>📈 Sample Test Reports</h2>
-
+<h2 id="sample-test-reports">📈 Sample Test Reports</h2>
 <p>Navigate to the <strong>TestReports</strong> folder to view structured reports for each test case. These reports include:</p>
 <ul>
     <li><strong>Execution details</strong>: Steps, expected and actual outcomes.</li>
@@ -98,8 +109,7 @@ pip install pytest</code></pre>
 
 <hr>
 
-<h2>🧩 Future Improvements</h2>
-
+<h2 id="future-improvements">🧩 Future Improvements</h2>
 <p>This portfolio is a work in progress. Future updates will include:</p>
 <ul>
     <li>Additional test cases covering complex scenarios</li>
