@@ -111,4 +111,5 @@ pip install pytest</code></pre>
 
 <p>Thank you for visiting my QA Portfolio! Feel free to reach out for collaboration or feedback.</p>
 
-<h3 align="center">Let’s connect on <a href="www.linkedin.com/in/kimberlyordonezc">LinkedIn</a>!</h3>
+<h3 align="center">Let’s connect on <a href="https://www.linkedin.com/in/kimberlyordonezc">LinkedIn</a>!</h3>
+
