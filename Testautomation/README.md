@@ -1,94 +1,116 @@
-<h1 align="center">📂 TestAutomation Folder</h1>
+<h1 align="center">TestAutomation Folder</h1>
 
-<p align="center">
-    This folder contains a series of Selenium-based automation scripts that demonstrate a variety of test automation tasks, including web element interactions, dynamic element handling, and the implementation of the Page Object Model (POM) pattern.
-</p>
+<p align="center">This folder contains the automated test scripts and reports for various tasks involving Selenium WebDriver and PyTest. Each test demonstrates different aspects of automation, such as handling web elements, interacting with forms, and using locators. The folder follows best practices, including modularization and the Page Object Model (POM).</p>
 
 <hr>
 
-<h2>📁 Folder Structure</h2>
+<h2>📂 Folder Structure</h2>
 
 <ul>
-    <li><strong>POM (Page Object Model)</strong>: Contains Python classes that encapsulate locators and methods for interacting with specific web pages, promoting reusability and maintainability in automation scripts.</li>
-    <li><strong>TestCases</strong>: Includes test scripts that utilize the POM classes to perform various automated test scenarios. These scripts cover tasks like dynamic dropdown handling, form submission, and login flows.</li>
-</ul>
-
-<hr>
-
-<h2>🧪 Key Tasks Demonstrated</h2>
-
-<h3>Task 1: Automate Google Search with Dynamic Dropdown</h3>
-<ul>
-    <li>Launches the Google homepage and verifies the search bar visibility.</li>
-    <li>Enters a search term, selects the first suggestion dynamically, and verifies navigation to the results page.</li>
-</ul>
-
-<h3>Task 2: Automate User Registration</h3>
-<ul>
-    <li>Automates the entire user registration flow on <code>http://automationexercise.com</code>, including form filling, account creation, and deletion.</li>
-    <li>Uses robust locators to handle dynamic elements like pop-ups and consent banners.</li>
-</ul>
-
-<h3>Task 3: Product Search Automation</h3>
-<ul>
-    <li>Navigates to the "All Products" page and searches for a specific product.</li>
-    <li>Verifies that the search results are displayed correctly.</li>
-</ul>
-
-<h3>Task 4: Refactoring with the Page Object Model</h3>
-<ul>
-    <li>Implements the POM pattern to separate test logic from web element interactions.</li>
-    <li>Includes a class for the Wikipedia search page, encapsulating methods to interact with its elements.</li>
-</ul>
-
-<h3>Task 5: Exploring PyTest</h3>
-<ul>
-    <li>Sets up PyTest to execute test cases efficiently and validates the use of fixtures for browser management.</li>
-    <li>Demonstrates parameterized test cases for robust and reusable test flows.</li>
+    <li><strong>POM/</strong>: Contains Page Object Model classes that encapsulate page-specific locators and actions.</li>
+    <li><strong>TestCases/</strong>: Includes individual test scripts demonstrating various automation tasks.</li>
+    <li><strong>TestReports/</strong>: Contains detailed execution reports for each test case, documenting the steps, results, and conclusions.</li>
 </ul>
 
 <hr>
 
-<h2>🔧 How to Use</h2>
+<h2>🚀 How to Run the Tests</h2>
 
-<h3>Setup</h3>
-<ul>
-    <li>Ensure <strong>Python 3.8+</strong> is installed on your machine.</li>
-    <li>Install the required dependencies by running:
-        <pre><code>pip install -r requirements.txt</code></pre>
+<ol>
+    <li>
+        <strong>Prerequisites:</strong>
+        <ul>
+            <li>Install Python 3.8+.</li>
+            <li>Install dependencies:
+                <pre><code>pip install -r requirements.txt</code></pre>
+            </li>
+            <li>Ensure <code>chromedriver</code> is installed and the path is added to the <code>.env</code> file as <code>CHROME_DRIVER_PATH</code>.</li>
+        </ul>
     </li>
-    <li>Download ChromeDriver and ensure its path is configured in your <code>.env</code> file:
-        <pre><code>CHROME_DRIVER_PATH=/path/to/chromedriver</code></pre>
+    <li>
+        <strong>Run Tests with PyTest:</strong>  
+        Navigate to the <code>TestCases</code> folder and execute:
+        <pre><code>pytest</code></pre>
     </li>
-    <li>Optional: For local HTML file testing, add its path to the <code>.env</code> file:
-        <pre><code>HTML_FILE_PATH=/path/to/sample.html</code></pre>
+    <li>
+        <strong>View Test Reports:</strong>  
+        Test reports for each script can be found in the <code>TestReports</code> folder.
     </li>
-</ul>
-
-<h3>Running the Tests</h3>
-<p>To execute all test cases in the <code>TestCases</code> folder, run:</p>
-<pre><code>pytest TestAutomation/TestCases/</code></pre>
-<p>To run individual test scripts, navigate to their location and execute:</p>
-<pre><code>pytest test_file_name.py</code></pre>
+</ol>
 
 <hr>
 
-<h2>📈 Skills Highlighted</h2>
+<h2>📜 Test Cases Overview</h2>
+
+<h3>1. <a href="./TestCases/pytest_example_test.py">Google Search Automation</a></h3>
 <ul>
-    <li><strong>Dynamic Element Handling:</strong> Techniques to interact with dynamic dropdowns and web elements.</li>
-    <li><strong>End-to-End Automation:</strong> Comprehensive workflows for user registration, search functionalities, and login processes.</li>
-    <li><strong>Page Object Model (POM):</strong> Clean and maintainable structure for test scripts.</li>
-    <li><strong>PyTest Integration:</strong> Efficient test execution and reporting with fixtures and assertions.</li>
-    <li><strong>Locator Strategies:</strong> Advanced use of XPath, CSS selectors, and other locators.</li>
+    <li><strong>Objective:</strong> Automate a Google search for the term "ISTQB."</li>
+    <li><strong>Steps:</strong>
+        <ol>
+            <li>Open Google.</li>
+            <li>Handle consent popup.</li>
+            <li>Input "ISTQB" in the search bar.</li>
+            <li>Click the first search result.</li>
+            <li>Verify the page title contains "ISTQB."</li>
+        </ol>
+    </li>
+    <li><strong>Test Report:</strong> <a href="./TestReports/pytest_report.md">View Report</a></li>
+</ul>
+
+<h3>2. <a href="./TestCases/test_automation.py">Browse Through Programs on Masterschool Website</a></h3>
+<ul>
+    <li><strong>Objective:</strong> Automate navigation to the Masterschool website's "Browse Programs" page.</li>
+    <li><strong>Steps:</strong>
+        <ol>
+            <li>Open the Masterschool website.</li>
+            <li>Handle cookie popups.</li>
+            <li>Locate and click the "Browse Programs" link.</li>
+            <li>Verify the program list appears.</li>
+        </ol>
+    </li>
+    <li><strong>Test Report:</strong> <a href="./TestReports/TestReport_browse_trough_programms.md">View Report</a></li>
+</ul>
+
+<h3>3. <a href="./TestCases/test_google_dynamic_dropdown.py">Google Search with Dynamic Dropdown</a></h3>
+<ul>
+    <li><strong>Objective:</strong> Automate selecting the first option from Google's dynamic dropdown while searching for "ISTQB."</li>
+    <li><strong>Steps:</strong>
+        <ol>
+            <li>Open Google.</li>
+            <li>Enter "ISTQB" in the search bar.</li>
+            <li>Use keyboard interactions to select the first result.</li>
+            <li>Verify navigation to the results page.</li>
+        </ol>
+    </li>
+    <li><strong>Test Report:</strong> <a href="./TestReports/TestReport_Google_searchautomation.md">View Report</a></li>
+</ul>
+
+<h3>4. <a href="./TestCases/test_register_user.py">User Registration on Automation Exercise Website</a></h3>
+<ul>
+    <li><strong>Objective:</strong> Automate the process of creating and deleting a user account.</li>
+    <li><strong>Steps:</strong>
+        <ol>
+            <li>Navigate to the Automation Exercise website.</li>
+            <li>Register a new user with dynamically generated details.</li>
+            <li>Verify account creation.</li>
+            <li>Delete the account and verify deletion.</li>
+        </ol>
+    </li>
+    <li><strong>Test Report:</strong> <a href="./TestReports/TestReport_User_Register.md">View Report</a></li>
+</ul>
+
+<h3>5. <a href="./TestCases/test_wikipedia_search.py">Wikipedia Search Automation</a></h3>
+<ul>
+    <li><strong>Objective:</strong> Automate searching for "Selenium WebDriver" on Wikipedia.</li>
+    <li><strong>Steps:</strong>
+        <ol>
+            <li>Navigate to the Wikipedia homepage.</li>
+            <li>Input "Selenium WebDriver" in the search bar.</li>
+            <li>Submit the search query.</li>
+            <li>Verify that the results page contains "Selenium (software)."</li>
+        </ol>
+    </li>
+    <li><strong>Test Report:</strong> <i>Pending Completion</i></li>
 </ul>
 
 <hr>
-
-<h2>💡 Notes</h2>
-<ul>
-    <li>All scripts include proper exception handling and wait mechanisms to ensure stability.</li>
-    <li>Test reports can be generated using PyTest plugins for detailed insights into test results.</li>
-    <li>Refer to the <strong>TestReports</strong> folder for sample test results and screenshots.</li>
-</ul>
-
-<p>Thank you for exploring the <strong>TestAutomation</strong> folder! These tasks are designed to demonstrate key automation skills and best practices.</p>
