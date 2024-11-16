@@ -4,3 +4,10 @@ chromedriver
 
 # Ignore environment file
 .env
+
+# Ignore PyTest cache
+.pytest_cache/
+
+# Ignore macOS system files
+.DS_Store
+
