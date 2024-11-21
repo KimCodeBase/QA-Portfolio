@@ -31,6 +31,8 @@
         <strong>Run Tests with PyTest:</strong>  
         Navigate to the <code>TestCases</code> folder and execute:
         <pre><code>pytest</code></pre>
+         <strong>Run Tests with Selenium:</strong>  
+        <pre><code>python3</code></pre>
     </li>
     <li>
         <strong>View Test Reports:</strong>  
@@ -54,7 +56,7 @@
             <li>Verify the page title contains "ISTQB."</li>
         </ol>
     </li>
-    <li><strong>Test Report:</strong> <a href="./TestReports/pytest_report.md">View Report</a></li>
+    <li><strong>Test Report:</strong> <a href="./Users/kimberlycanas/qa-portfolio/QA-Portfolio/Testautomation/TestCases/docs/test_google_search_report.html">View Report</a></li>
 </ul>
 
 <h3>2. <a href="./TestCases/test_automation.py">Browse Through Programs on Masterschool Website</a></h3>
@@ -68,7 +70,7 @@
             <li>Verify the program list appears.</li>
         </ol>
     </li>
-    <li><strong>Test Report:</strong> <a href="./TestReports/TestReport_browse_trough_programms.md">View Report</a></li>
+    <li><strong>Test Report:</strong> <a href="./Users/kimberlycanas/qa-portfolio/QA-Portfolio/Testautomation/TestCases/docs/TestResults___main__.TestAutomation_2024-11-16_20-08-34.html">View Report</a></li>
 </ul>
 
 <h3>3. <a href="./TestCases/test_google_dynamic_dropdown.py">Google Search with Dynamic Dropdown</a></h3>
@@ -82,7 +84,7 @@
             <li>Verify navigation to the results page.</li>
         </ol>
     </li>
-    <li><strong>Test Report:</strong> <a href="./TestReports/TestReport_Google_searchautomation.md">View Report</a></li>
+    <li><strong>Test Report:</strong> <a href="./Users/kimberlycanas/qa-portfolio/QA-Portfolio/Testautomation/TestCases/docs/pytest_example_test.py.html">View Report</a></li>
 </ul>
 
 <h3>4. <a href="./TestCases/test_register_user.py">User Registration on Automation Exercise Website</a></h3>
