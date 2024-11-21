@@ -197,4 +197,3 @@ except Exception as e:
 # Finalize
 driver.quit()
 print("Test completed, browser closed.")
-
