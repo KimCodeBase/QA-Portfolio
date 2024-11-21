@@ -71,7 +71,8 @@ pip install pytest</code></pre>
 <h3 id="running-the-tests">Running the Tests</h3>
 <p>To execute all tests in this repository using PyTest, run the following command in the terminal from the root directory of the repository:</p>
 <pre><code>pytest</code></pre>
-<p>This will run all test scripts, and you can view the test results in the terminal. PyTest will generate a summary of passed and failed tests along with any error messages.</p>
+<pre><code>python3</code></pre>
+<p>This will run all test scripts, and you can view the test results in the terminal. PyTest and Python will generate a summary of passed and failed tests along with any error messages.</p>
 
 <hr>
 
@@ -103,7 +104,6 @@ pip install pytest</code></pre>
 <p>Navigate to the <strong>TestReports</strong> folder to view structured reports for each test case. These reports include:</p>
 <ul>
     <li><strong>Execution details</strong>: Steps, expected and actual outcomes.</li>
-    <li><strong>Screenshots</strong>: Visual evidence for each step.</li>
     <li><strong>Analysis</strong>: Summary and suggestions based on test results.</li>
 </ul>
 
@@ -113,7 +113,7 @@ pip install pytest</code></pre>
 <p>This portfolio is a work in progress. Future updates will include:</p>
 <ul>
     <li>Additional test cases covering complex scenarios</li>
-    <li>Enhanced reporting and integration with CI/CD pipelines</li>
+    <li><strong>Screenshots</strong>: Visual evidence for each step.</li>    
     <li>Advanced automation using more Selenium features</li>
 </ul>
 
@@ -122,4 +122,3 @@ pip install pytest</code></pre>
 <p>Thank you for visiting my QA Portfolio! Feel free to reach out for collaboration or feedback.</p>
 
 <h3 align="center">Let’s connect on <a href="https://www.linkedin.com/in/kimberlyordonezc">LinkedIn</a>!</h3>
-
